@@ -106,7 +106,6 @@
 </html>
 
 <?php
-
 // Funciones PHP del pin GPIO 4
  $estado_gpio4 = file_get_contents('/sys/class/gpio/gpio4/value');
 
